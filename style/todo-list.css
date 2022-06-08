@@ -1,0 +1,184 @@
+h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 80px;
+}
+.content-el{
+	width: 300px;
+	height: 30px;
+	font-size: 25px;
+	font-weight: bold;
+}
+div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+button{
+	margin-left: 10px;
+	cursor: pointer;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+}
+.clear-all{
+	background-color: darkred;
+	color:white;
+	font-size: 20px;
+	width: 150px;
+}
+.add-button{
+	background-color: darkgreen;
+	color: white;
+	width: 35px;
+	font-size:25px;
+
+}
+.items{
+	font-weight: bold;
+	font-size: 60px;
+}
+.delete-button{
+	width: 30px;
+	height: 30px;
+	background-color: darkred;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 920px){
+	h1{
+		font-size: 5rem;
+	}
+}
+@media screen and (max-width: 818px){
+	h1{
+		font-size: 4rem;
+	}
+
+}
+@media screen and (max-width: 661px){
+	h1{
+		font-size: 3.5rem;
+	}
+}
+@media screen and (max-width: 576px){
+	h1{
+		font-size: 3rem;
+	}
+	.content-el{
+		width: 260px;
+		height: 25px;
+		font-size: 20px;
+	}
+	.add-button{
+		width: 30px;
+		height: 30px;
+	}
+	.delete-button{
+		width: 25px;
+		height: 25px;
+	}
+	.clear-all{
+		width:115px;
+		height: 30px;
+		font-size: 14px;
+	}
+	.items{
+		font-size: 3rem;
+	}
+
+}
+@media screen and (max-width: 495px){
+	h1{
+		font-size: 2.5rem;
+	}
+	.content-el{
+		width: 230px;
+		height: 20px;
+		font-size: 17px;
+
+	}
+	.add-button{
+		width: 25px;
+		height: 25px;
+		font-size: 20px;
+	}
+	.delete-button{
+		width: 20px;
+		height: 20px;
+	}
+	.clear-all{
+		width:105px;
+		height: 25px;
+		font-size: 10px;
+	}
+	.styled-button{
+		font-size: 2.5rem;
+	}
+
+}
+@media screen and (max-width: 415px){
+	h1{
+		font-size: 2rem;
+	}
+	.content-el{
+		width: 200px;
+		height: 15px;
+		font-size: 14px;
+
+	}
+	.add-button{
+		width: 20px;
+		height: 20px;
+		font-size: 16px;
+	}
+	.delete-button{
+		width: 15px;
+		height: 15px;
+		font-size: 8px;
+	}
+	.clear-all{
+		width:95px;
+		height: 20px;
+		font-size: 9px;
+	}
+	.items{
+		font-size: 1.5rem;
+	}
+
+}
+@media screen and (max-width: 334px){
+	h1{
+		font-size: 1.5rem;
+	}
+	.content-el{
+		width: 150px;
+		height: 10px;
+		font-size: 10px;
+
+	}
+	.add-button{
+		width: 15px;
+		height: 15px;
+		font-size: 10px;
+	}
+	.delete-button{
+		width: 13px;
+		height: 13px;
+		font-size: 6px;
+	}
+	.clear-all{
+		width:90px;
+		height: 17px;
+		font-size: 8px;
+	}
+	.items{
+		font-size: 1rem;
+	}
+
+}
